@@ -35,7 +35,6 @@
 			<ConfigurationExtensionCompatibilityMode>DontUse</ConfigurationExtensionCompatibilityMode>
 			<DefaultRunMode>ManagedApplication</DefaultRunMode>
 			<UsePurposes>
-				<v8:Value xsi:type="app:ApplicationUsePurpose">PersonalComputer</v8:Value>
 				<v8:Value xsi:type="app:ApplicationUsePurpose">MobileDevice</v8:Value>
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
@@ -108,12 +107,18 @@
 			<ObjectAutonumerationMode>NotAutoFree</ObjectAutonumerationMode>
 			<ModalityUseMode>DontUse</ModalityUseMode>
 			<SynchronousPlatformExtensionAndAddInCallUseMode>Use</SynchronousPlatformExtensionAndAddInCallUseMode>
-			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
+			<InterfaceCompatibilityMode>Version8_2</InterfaceCompatibilityMode>
 			<CompatibilityMode>DontUse</CompatibilityMode>
 			<DefaultConstantsForm/>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<DataProcessor>ФСФРИмпортВопросов</DataProcessor>
+			<InformationRegister>ФСФРБазовыйВопросы</InformationRegister>
+			<InformationRegister>ФСФРБазовыйПравильныеОтветы</InformationRegister>
+			<InformationRegister>ФСФРБазовыйОтветы</InformationRegister>
+			<InformationRegister>ФСФРБазовыйГлавы</InformationRegister>
+			<InformationRegister>ФСФРБазовыйКартинки</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
